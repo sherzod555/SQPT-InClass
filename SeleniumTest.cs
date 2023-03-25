@@ -20,8 +20,8 @@ namespace TestProject1
             driver.Manage().Window.Maximize();
 
             //Login Input Box values
-            driver.FindElement(By.XPath("/html/body/div[1]/div[3]/main/div/div[4]/form/input[2]")).SendKeys("00010035");  //4 points
-            driver.FindElement(By.Id("password")).SendKeys("ibroxim7");  //4 points
+            driver.FindElement(By.XPath("/html/body/div[1]/div[3]/main/div/div[4]/form/input[2]")).SendKeys("typenickname");  //4 points
+            driver.FindElement(By.Id("password")).SendKeys("typepassword");  //4 points
 
             ////Sign In Button Click
             driver.FindElement(By.XPath("/html/body/div[1]/div[3]/main/div/div[4]/form/div/input[11]")).Click();    //1 point 
